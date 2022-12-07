@@ -1,0 +1,7 @@
+app:
+  build:
+    build:
+      - npm i
+    deploy: [ node_modules, package.json, app.js ]
+  run:
+    start: npm start
