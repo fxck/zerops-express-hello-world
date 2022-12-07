@@ -1,6 +1,6 @@
 app:
   build:
-    base: [nodejs@16]
+    base: [ nodejs@16 ]
     build:
       - npm i
     deploy: [ node_modules, package.json, app.js ]
